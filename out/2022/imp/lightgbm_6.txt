@@ -1,0 +1,17 @@
+clinic+Headaches 100
+Af*JS+longRunHighGreyLevelEmphasis.1*JS 69.175
+clinic*Af+MouthOpening*TbSp.1 64.039
+Ser*Sal+VE.Cadherin_Serum*Angiogenin_Saliva 50.406
+clinic+MouthOpening 43.902
+C*Af+clusterProminence*TbSp.1 43.677
+Af*Sal+greyLevelNonuniformity.1*TIMP.1_Saliva 37.718
+demo*clinic+gender*RestlessSleep 33.128
+clinic*Sal+MouthOpening*PAI.1_Saliva 24.23
+clinic*C+MouthOpening*greyLevelNonuniformity 18.809
+C*Sal+TbN*VE.Cadherin_Saliva 16.53
+Ser*Ser+MMP.3_Serum*VEGF_Serum 12.913
+clinic*C+MouthOpening*clusterProminence 10.098
+clinic*C+RestlessSleep*TbTh 7.929
+Af*Sal+longRunLowGreyLevelEmphasis.1*VEGF_Saliva 6.965
+C+TbTh 2.54
+Af*Sal+shortRunHighGreyLevelEmphasis.1*VE.Cadherin_Saliva 0
