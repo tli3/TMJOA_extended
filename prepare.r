@@ -27,21 +27,21 @@ while(1)
 	if(temp1[temp2]==1)break
 	print(dim(X)[2])
 }
-#write.csv(cbind(y,X),file='TMJOAI_112223_inter.csv',row.names=F,quote=F)
-
-ind00=union(union(grep('Sal\\*Sal',colnames(x2)),grep('Ser\\*Sal',colnames(x2))),grep('C\\*Sal',colnames(x2)))
-x2=x2[,-ind00]
-ind00=union(union(grep('Ser\\*Ser',colnames(x2)),grep('Ser\\*JS',colnames(x2))),grep('Sal\\*JS',colnames(x2)))
-x2=x2[,-ind00]
-ind00=union(union(grep('Af\\*Ser',colnames(x2)),grep('Af\\*Sal',colnames(x2))),grep('Af\\*Af',colnames(x2)))
-x2=x2[,-ind00]
-ind00=union(grep('C\\*Ser',colnames(x2)),grep('C\\*Sal',colnames(x2)))
-x2=x2[,-ind00]
-ind00=union(grep('C\\*C',colnames(x2)),grep('Af\\*Af',colnames(x2)))
-x2=x2[,-ind00]
-x2=x2[,c(74:78,146:490)]
-X=cbind(X,x2)
 write.csv(cbind(y,X),file='TMJOAI_112223_inter.csv',row.names=F,quote=F)
+
+#ind00=union(union(grep('Sal\\*Sal',colnames(x2)),grep('Ser\\*Sal',colnames(x2))),grep('C\\*Sal',colnames(x2)))
+#x2=x2[,-ind00]
+#ind00=union(union(grep('Ser\\*Ser',colnames(x2)),grep('Ser\\*JS',colnames(x2))),grep('Sal\\*JS',colnames(x2)))
+#x2=x2[,-ind00]
+#ind00=union(union(grep('Af\\*Ser',colnames(x2)),grep('Af\\*Sal',colnames(x2))),grep('Af\\*Af',colnames(x2)))
+#x2=x2[,-ind00]
+#ind00=union(grep('C\\*Ser',colnames(x2)),grep('C\\*Sal',colnames(x2)))
+#x2=x2[,-ind00]
+#ind00=union(grep('C\\*C',colnames(x2)),grep('Af\\*Af',colnames(x2)))
+#x2=x2[,-ind00]
+#x2=x2[,c(74:78,146:490)]
+#X=cbind(X,x2)
+#write.csv(cbind(y,X),file='TMJOAI_112223_inter1.csv',row.names=F,quote=F)
 
 
 
